@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+#nav_items{
+    position:absolute; 
+    /* top:0px; */
+    bottom:600px;
+
+}
+
+#navbarSupportedContent{
+    margin-right: 100px;
+}
+
+.nav-item{
+    padding:10px;
+}
+#quote{
+    position:absolute;
+    top:200px;
+}
+#img1{
+    padding-left: 100px;
+    /* border:2px solid red; */
+    
+}
+
+#about{
+    padding:70px 0px;
+    background-color:rgb(221, 217, 222);
+}
+.pre_tag{
+    font-family:sans-serif;
+}
+.effect:hover{
+    transform:scale(1.06);
+}
+
+.imgsize{
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height:500vh; */
+    background-position:bottom;
+    background-attachment: fixed;
+}
+
+#centering,#styling{
+    margin:40px 0px 40px 300px;
+    /* box-shadow: -3px 0px 5px 0px rgba(181,174,174,0.75) inset; */
+    box-shadow: 2px 2px 2px 2px rgba(223,223,223,0.821)
+}
+
+
+
+
+/* //chat box */
+.Chat-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  /* Style for the search input field */
+  .Chat-input {
+    flex: 1;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  /* Style for the search button */
+  .search-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+
+  /* Style for the search results container */
+  .Chat-results {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }

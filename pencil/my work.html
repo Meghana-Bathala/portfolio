@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pencilart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<style>
+     *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+     /* background-color: rgb(203, 203, 171); */
+    
+    
+    }
+    body{
+    background-color: black; 
+    }
+    .navigation{
+    font-family: 'Source Serif Pro', serif;
+    display:flex;
+    position:relative;
+         height: 190px;
+         width: 100%;
+         background:rgb(249 136 46);
+         /* transform: scale(1, 1); */
+          z-index: 3;
+    /* border:2px solid red; */
+    /* padding:10px; */
+    }
+    .navigation::after {
+         content: "";
+         position: absolute;
+         border-radius:0 0 80% 0%;
+         width: 60%;
+         height: 14rem;
+         background-color: rgb(249 136 46);
+         /* left: -25%;  */
+         top: 20px;
+         z-index:-1;
+      }
+    
+      .navigation::before{
+         content: ""; 
+         position: absolute;
+         border-radius:100% 0 0 0;
+         width: 60%;
+         height: 150px;
+         background-color:black;
+         left: 40%;
+         top: 108px;
+         z-index: -1;
+      }
+      .main{
+        background-image: url('./images/hd.jpg');
+        margin-top: 5em;
+        background-size:auto;
+        background-repeat: no-repeat;
+      }
+      .ma{
+        display:flex;
+      }
+     ul{ 
+    list-style-type: none;
+    margin-left:50px;
+    display: flex;
+    font-weight: bold;
+    padding:30px 0;
+    }
+    a{
+    text-decoration-line: none;
+    padding: 10px;
+    color:white;
+    }
+    a:hover{
+      color:brown;
+    }
+    .signup{    
+    padding:0px 0;
+    margin-left:400px; 
+    }
+   
+   .part{
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-around; */
+      gap:1em;
+      padding-top: 20px; 
+      margin-left:2em;
+      font-weight:bolder;
+      font-size: larger;
+      color:brown
+    }
+    a{
+    text-decoration-line: none;
+    padding: 10px;
+    }
+    .container{
+        display:grid;
+        padding-top:40px;
+        margin-top:5em;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: center;
+        
+    }
+    .images{
+        border:1px solid rgb(89, 25, 132);
+        margin:20px;
+       
+    }
+    .images:hover{
+      transform: scale(1.2);
+      
+      
+      
+    }
+
+    .images img{
+        width:250px;
+        height:350px;
+        /* padding:30px; */
+        
+    }
+    .footer{
+      height:15em;
+      background-color: rgb(249 136 46);
+      display:grid;
+      grid-template-columns:300px 300px 300px 300px;
+    }
+    .sections{
+        margin:20px;
+        color:white;
+        line-height: 2em;
+    }
+</style>
+<body>
+    <div class="navigation"><div class="part"> <img src="./images/orange.jpg" alt="" width="100px" height="100px">PENCIL ART </div> 
+        <div class="menu"><ul>
+                            <li><a href="./nothing.html">HOME</a></li>
+                            <li><a href="#id1">ABOUT</a></li>
+                            <li><a href="./my work.html">MY WORK</a></li>
+                            <li><a href="#id2">CONTACT</a></li>
+                        </ul>
+        </div>
+    </div>
+        <div class="container">
+            <div class="images"><img src="./images/20211125_143511.jpg" alt=""></div>
+            <div class="images"><img src="./images/20230611_105752.jpg" alt=""></div>
+            <div class="images"><img src="./images/20230611_104318.jpg" alt=""></div>
+            <div class="images"><img src="./images/20230611_105947.jpg" alt=""></div>
+            <div class="images"><img src="./images/20230611_110501.jpg" alt=""></div>
+            <div class="images"><img src="./images/20230611_105305.jpg" alt=""></div>
+            <div class="images"><img src="./images/20230611_104545.jpg" alt=""></div>
+            <div class="images"><img src="./images/20230611_104858.jpg" alt=""></div>
+            <div class="images"><img src="./images/20230611_110109.jpg" alt=""></div>
+            <div class="images1"></div>
+            <div class="images"><img src="./images/20230611_110602.jpg" alt=""></div>
+        </div>
+        <div class="footer">
+            <div class="sections" id="id1"><h4>ABOUT US</h4>
+                PencilArt is an online art gallery or personalized service brand that produces & sells handmade</div>
+            <div class="sections"><h4>CONTACT</h4>Meghana'spencil@gmail.com<br></div>
+            <div class="sections" id="id2"><h4>SOCIAL MEDIA WEBSITES</h4>insta:pencil_art <br>fb:pencilart</div>
+        </div>   
+</body>
+</html>
